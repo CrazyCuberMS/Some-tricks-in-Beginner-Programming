@@ -23,3 +23,9 @@ string name;
     cout<<"Enter your name :" ;
     getline(cin, name);
     cout<<"Hello "<<name;
+
+std::string a;
+	std::cin >> a;
+	for( int i=a.size()-3 ; i >0; i= i-3 )
+	{   a.insert(i ,",");   }
+	std::cout << a;
