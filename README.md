@@ -29,3 +29,28 @@ std::string a;
 	for( int i=a.size()-3 ; i >0; i= i-3 )
 	{   a.insert(i ,",");   }
 	std::cout << a;
+	
+#include <iomanip>
+	cout << std::fixed<< m 
+	
+#include <iostream>
+#include <string>
+
+
+
+int main()
+{
+std::string a,b;
+std::cin >> a >> b;
+
+    std::sort(a.begin(),a.end());
+    std::sort(b.begin(),b.end());
+
+    if ( a==b)
+    {
+        std::cout << "Yes";
+    }
+    else { std::cout << "No";}
+
+    return 0;
+}
