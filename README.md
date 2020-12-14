@@ -18,3 +18,8 @@ for(int i=0; i<10; i++){
  else {cout << i} }
 
 Same explanation goes in while
+
+string name;
+    cout<<"Enter your name :" ;
+    getline(cin, name);
+    cout<<"Hello "<<name;
